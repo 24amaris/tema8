@@ -31,7 +31,11 @@ function Caseta(x,y) {
     textSize(32); 
     text("3", x+260, y+40); 
 
-
+    fill(" #673AB7");
+    rect(x+330, y, 100, 60 );
+    fill("#000000");
+    textSize(32); 
+    text("4", x+370, y+40);
 
 
 }

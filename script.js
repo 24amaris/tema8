@@ -1,41 +1,21 @@
+let smAmarisX = 15;
+let smAmarisY =50;
 
-let smAmarisX =300;
-let smAmarisY =300;
+Caseta(smAmarisX,smAmarisY);
 
 function setup() {
-    createCanvas(tableWidth, tableHight);
-}
-
+    createCanvas(800, 500);
+    }
 function draw() {
-    background("gray");
-    checkLimitsSMAmaris();
-
-    smilyFaceAmaris(smAmarisX , smAmarisY);
-
-
+  
+    background("rgb(221,210,210)");
+    Caseta(smAmarisX, smAmarisY );
 }
 
-function smilyFaceAmaris(x,y){
-  //body
-  fill("white");
-  stroke("black");
-  circle(x, y, 50);
-
-  //eyes
- // circle( 390, 295, 5);
-  //circle( 410, 295, 5);
-    stroke("green");
-    ellipse(x-10, y-5, 10, 5);
-    ellipse(x+10, y-5, 10, 5);
-//eye pupils
-    stroke("black");
-    fill("black");
-    circle( x+10, y-5, 3);
-    circle( x-10, y-5, 3);
-//mounth
-    stroke("red");
-    fill("black");
-    arc(x, y+10, 20, 5, 0, Math.PI);
+function Caseta(x,y) {
+  fill("#F44336");
+  rect(x, y, 100, 60 );
+  fill("#000000");
+  textSize(32); 
+  text("1", x+40, y+40); 
 }
-
-

@@ -55,7 +55,48 @@ function Caseta(x,y) {
     textSize(32); 
     text("7", x+700, y+40);
 
+//a doua linie
+fill("#00BCD4");
+rect(x, y+100, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("8", x+40, y+140); 
 
+fill(" #009688");
+rect(x+110, y+100, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("9", x+150, y+140); 
+
+fill(" #4CAF50");
+rect(x+220, y+100, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("10", x+255, y+140); 
+
+fill(" #8BC34A");
+rect(x+330, y+100, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("11", x+360, y+140); 
+
+fill(" #CDDC39");
+rect(x+440, y+100, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("12", x+470, y+140); 
+
+fill(" #FFEB3B");
+rect(x+550, y+100, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("13", x+580, y+140); 
+
+fill(" #FFC107");
+rect(x+660, y+100, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("14", x+690, y+140);
 
 
 

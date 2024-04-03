@@ -98,6 +98,48 @@ fill("#000000");
 textSize(32); 
 text("14", x+690, y+140);
 
+//linia3
+fill("#FF9800");
+rect(x, y+200, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("15", x+30, y+240);
+
+fill(" #FF5722");
+rect(x+110, y+200, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("16", x+140, y+240);
+
+fill(" #795548");
+rect(x+220, y+200, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("17", x+250, y+240);
+
+fill(" #9E9E9E");
+rect(x+330, y+200, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("18", x+360, y+240);
+
+fill(" #607D8B");
+rect(x+440, y+200, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("19", x+470, y+240);
+
+fill(" #F44336");
+rect(x+550, y+200, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("20", x+580, y+240);
+
+fill(" #E91E63");
+rect(x+660, y+200, 100, 60 );
+fill("#000000");
+textSize(32); 
+text("21", x+690, y+240);
 
 
 

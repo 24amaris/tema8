@@ -43,12 +43,17 @@ function Caseta(x,y) {
     textSize(32); 
     text("5", x+480, y+40);
 
-    fill(" #2196F3")
+    fill(" #2196F3");
     rect(x+550, y, 100, 60 );
     fill("#000000");
     textSize(32); 
     text("6", x+590, y+40);
 
+    fill(" #03A9F4");
+    rect(x+660, y, 100, 60 );
+    fill("#000000");
+    textSize(32); 
+    text("7", x+700, y+40);
 
 
 
@@ -59,5 +64,5 @@ function Caseta(x,y) {
 
 
 
-    
+
 }

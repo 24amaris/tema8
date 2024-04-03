@@ -19,13 +19,17 @@ function Caseta(x,y) {
     textSize(32); 
     text("1", x+40, y+40); 
 
-    fill(" #E91E63")
+    fill(" #E91E63");
     rect(x+110, y, 100, 60 );
     fill("#000000");
     textSize(32); 
     text("2", x+150, y+40);
 
-
+    fill(" #9C27B0");
+    rect(x+220, y, 100, 60 );
+    fill("#000000");
+    textSize(32); 
+    text("3", x+260, y+40); 
 
 
 
